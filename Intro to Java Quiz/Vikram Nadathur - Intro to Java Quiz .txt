@@ -1,0 +1,133 @@
+﻿Java
+Intro to Java Quiz______________________________________________________________
+DIRECTIONS: Answer each question in RED. You may not use the internet (except for this document) or any other programs for the quiz.
+
+
+1) What is this code for? public static void main(String [] args)
+This code is for creating the main method.
+2) List 2 reference types. What is one thing you know about reference types that is not true about primitives types?
+String and Scanner are two reference types. One difference between a reference and a primitive type is that primitive types do not contain methods which can be called upon.
+3) List 3 primitive types. What is one thing you know about primitive types that is not true about reference types?
+char, int, double. Primitive types start with a lowercase letter.
+4) Print your name on the screen on one line. 
+System.out.println(“Vikram Nadathur”);
+5) Print your first and last name on separate lines. 
+System.out.print(“Vikram\nNadathur ”);
+6) Write code to ask the user to enter an int. Print out the square root of that int.
+
+
+Scanner sc = new Scanner(System.in);
+
+
+System.out.println(“Enter a integer”);
+Int num = sc.nextInt();
+System.out.println(“\n The square root of ” + num + “ is” + sqrt(num) + “.” )
+7) All of these parts are in the same program. 
+
+
+a) Create ints a and b with the values 3 and 5, and doubles x and y with the values 2.5
+and 5.1
+int a = 3;
+int b = 5 ;
+        double x = 2.5;
+        double y = 5.1;
+b) Using a and b print: A = 3, B = 5.                                                                                                                                                                    Cvn                                                                                                                                                                                      bv vcvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvncvvvvvvvvvbnccccccccccccccccbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnbnncvbncccccccvbncvnvvbvbbbvvvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbvbccccvvvvvvvvv
+System.out.println(“A = ” + a + ” B = ” + b);
+c) Using a and b print: A + B = 8
+System.out.println(“A + B = ” + (a+b);
+d) Using a and b print: A + B = 35
+System.out.println(“A + B = ” + a + b);
+What is printed as a result of 
+
+
+11) System.out.print(a * y);
+15[a][b]
+12) System.out.print(b / a);1
+
+
+13) System.out.print("x - y = " + x - y);
+ERROR
+14) System.out.print("x + y = " + x + y);
+“x + y = 2.55.1”[c]
+15) Write code that prints out the even integers between 0 and 20 on the same line.
+for(int i=0; i<21; i++){
+        if(i%2==0)
+                System.out.println(i);
+}
+16) Write code that asks the user to enter numbers until they enter a negative number or a number larger than 100.
+Scanner sc =new Scanner(System.in);
+System.out.println(“Please enter a number”);
+int Num = sc.nextInt();
+while(Num<100){
+        System.out.println(“Your number is less than 100”);
+        System.out.println(“Please enter a number”);
+int Num = sc.nextInt();
+}
+while(Num>0){
+[d]
+
+
+        System.out.println(“Your number is positive”);
+        System.out.println(“Please enter a number”);
+int Num = sc.nextInt();
+}
+
+
+17) What is the result of the following method calls?
+
+
+        a) "Ritisha".substring(2)        “tisha”
+        
+        b) "G-Money".length();7
+                
+        c) “Joheen”.substring(2, 3);”h”
+                
+        d) “Hello World”.substring(3, 7);”lo W”
+        
+        e) “Apple”.compareTo(“Banana”); A negative number
+        
+        f) “Hello”.equals(“World”); False
+        
+18) Write the code to produce the following result. Only use these variables, do not write anything in quotes.
+
+
+        String w1 = “Hello”;
+        String w2 = “World”;
+
+
+        a) llo
+        System.out.println(w1.substring(2));
+        b) Worl
+                System.out.println(w2.substring(0,4));
+        c) true
+                System.out.println(w1.equals(w1));
+d) false        
+System.out.println(w1.equals(w2));
+        e) 0        
+System.out.println(w1.indexOf(w2)+1);
+
+
+19) Write me some code that asks the user to enter two ints. Print out the geometric mean of the numbers. 
+The geometric mean of a and b is x if   
+
+
+
+
+Scanner sc =  new Scanner(System.in);
+
+
+System.out.println(“Enter the first number”);
+int a = sc.nextInt();
+System.out.println(“Enter the second number”);
+int b = sc.nextInt();
+int geomean = sqrt(a*b);
+System.out.println(“The geometric mean of the two number is ” + geomean);
+
+
+
+
+[a]15.3
+[b]-1
+[c]good
+[d]should be one loop
+-2
