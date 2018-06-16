@@ -1,0 +1,1 @@
+Past both the Square class and the program containing the array of Squares
